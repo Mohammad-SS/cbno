@@ -19,7 +19,6 @@ class TwoSumSerializer(serializers.Serializer):
 
     def get_sum(self, validated_data):
         try:
-            print(validated_data)
             return validated_data.get("num1") + validated_data.get("num2")
         except Exception as e:
             print(e)
