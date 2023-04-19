@@ -1,7 +1,7 @@
 from rest_framework.generics import CreateAPIView
 from rest_framework.views import APIView, Response
 
-from .serilizers import TwoSumSerializer, ContactFormSerializer
+from .serializers import TwoSumSerializer, ContactFormSerializer
 
 
 class TwoSumAPIView(APIView):
